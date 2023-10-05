@@ -1,0 +1,25 @@
+C:\Users\kumas>cd C:\Users\kumas\OneDrive\デスクトップ\Gitkadai
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai>mkdir git_challenge
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai>cd  git_challenge
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai\git_challenge>git init
+Initialized empty Git repository in C:/Users/kumas/OneDrive/デスクトップ/Gitkadai/git_challenge/.git/
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai\git_challenge>git add hello_world.txt
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai\git_challenge>git commit -m "hello_world.txt"を追加
+[main (root-commit) 972b411] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai\git_challenge>git add hello_world.txt
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai\git_challenge>git commit -m "日本語訳を追記"
+[main 2d72e3a] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\Users\kumas\OneDrive\デスクトップ\Gitkadai\git_challenge>git log --oneline
+2d72e3a (HEAD -> main) 日本語訳を追記
+972b411 hello_world.txtを追加
